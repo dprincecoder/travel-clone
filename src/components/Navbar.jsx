@@ -2,12 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FiMenu, FiUser } from 'react-icons/fi'
 
+
 const Navbar = () => {
   return (
     <>
         <nav className='lg:flex bg-white justify-between w-full py-5 px-28 items-center hidden'>
             <div className='flex gap-20 items-center'>
-                <h1 className='text-4xl font-bold'>Logo</h1>
+                <h1 className='text-4xl font-bold text-green'>Travul<span>9ja</span></h1>
 
                 <div className="flex gap-5 text-black menu">
                     <Link to={'/'}>Flight</Link>

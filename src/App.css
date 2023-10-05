@@ -1,0 +1,46 @@
+header{
+    font-weight: bold;
+}
+
+h2{
+    margin-top: 100px;
+}
+
+.img-section1{
+   width:70%;
+   margin:0px 105px;
+
+}
+.second-sliders{
+    width:70%;
+   margin:0px 105px;
+   padding-top: 150px;   
+}
+.swiper-contents{
+    display:flex;
+    justify-content: space-between;
+}
+
+.swiper-btn{
+    background-color: rgb(18, 119, 106);
+    margin-top: 4px;
+    color:#fff;
+    width:25%;
+    height:6vh;
+    border-radius: 20px;
+}
+
+.swiper-btn:hover{
+    background-color: #fff;
+    color:rgb(18, 119, 106);
+    cursor: pointer;
+    border:1px solid rgb(18, 119, 106);
+    transition: all 0.5s ease-in;
+}
+
+.swiper-background{
+    /* background-color: #ffffff; */
+    /* width:50px; */
+    margin:0px 10px;
+    /* border:1px solid #111; */
+}
