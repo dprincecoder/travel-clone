@@ -11,6 +11,7 @@ import Homeimg from '../components/Homeimg'
 import Showcase from '../components/Showcase'
 import Swiper from '../components/Swiper'
 import Secondswiper from '../components/Secondswiper'
+
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
@@ -29,6 +30,7 @@ const Index = () => {
             <Route path='/checkout' element={<Checkout />} />
         </Routes>
         <Showcase/>
+      
          <Swiper/>
          <Secondswiper/>
          <Homeimg/>
