@@ -66,14 +66,14 @@ const Checkout = () => {
 
                                 <div className="form-group flex flex-col gap-3 w-full">
                                     <label htmlFor='phone'>Phone Number</label>
-                                    <div className="relative flex w-full ">
+                                    <div className="relative flex w-full">
                                         <Menu placement="bottom-start">
                                             <MenuHandler>
                                                 <Button
                                                     ripple={false}
                                                     variant="text"
                                                     color="blue-gray"
-                                                    className="flex h-10 items-center gap-2 rounded-r-none border border-r-0 border-blue-gray-200 bg-blue-gray-500/10 pl-3"
+                                                    className="flex h-11 items-center gap-2 rounded-r-none border border-r-0 border-blue-gray-200 bg-blue-gray-500/10 pl-3"
                                                 >
                                                     <img
                                                         src={flags.svg}
@@ -105,6 +105,7 @@ const Checkout = () => {
                                         </Menu>
                                         <Input
                                             type="tel"
+                                            size='lg'
                                             placeholder="Mobile Number"
                                             className="rounded-l-none !border-t-blue-gray-200 focus:!border-t-gray-900"
                                             labelProps={{

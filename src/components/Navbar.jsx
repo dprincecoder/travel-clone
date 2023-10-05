@@ -1,33 +1,37 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { FiMenu, FiUser } from 'react-icons/fi'
 import { Button } from '@material-tailwind/react'
 
 
 const Navbar = () => {
+    const autoHide = () => {
+        return window.location.pathname.includes('register') ||
+        window.location.pathname.includes('login') ? "hidden" : "lg:flex" 
+    }
   return (
     <>
-        <nav className='lg:flex bg-white justify-between w-full py-5 px-28 items-center hidden'>
+        <nav className={`bg-white justify-between w-full py-5 px-28 items-center hidden ${autoHide()}`}>
             <div className='flex gap-20 items-center'>
                 <h1 className='text-4xl font-bold text-green'>Travul<span>9ja</span></h1>
 
                 <div className="flex gap-5 text-black menu">
                     <Link to={'/'}>Flight</Link>  
                     <Link to={'/'}>Hotels</Link>
-                    <Link to={'/checkout'}>Car Hire</Link>
+                    <Link to={'/checkout'}>Bus Hire</Link>
                 </div>
             </div>
 
             <div className="nav-action-btn flex items-center gap-4">
-                <Link to={'/'} className='text-green-600'>Login</Link>
-                <Link to={'/search'}>
-                    <Button variant='gradient' color='green' size='lg' className='rounded-full capitalize'>Create account</Button>
-                </Link>
+                <span onClick={() => window.location.href = '/login'} to={'/'} className='text-green-600 cursor-pointer'>Login</span>
+                <p onClick={() => window.location.href = '/login'} className='cursor-pointer'>
+                    <Button variant='gradient' style={{ fontFamily: 'rubik' }} color='green' size='lg' className='rounded-full capitalize'>Create account</Button>
+                </p>
             </div>
         </nav>
 
         {/* Mobile View */}
-        <nav className='flex bg-white justify-between w-full py-5 px-5 items-center lg:hidden'>
+        <nav className={`flex bg-white justify-between w-full py-5 px-5 items-center lg:hidden ${autoHide()}`}>
             <div className='flex gap-20 items-center'>
                 <h1 className='text-4xl font-bold'>Logo</h1>
             </div>

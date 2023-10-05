@@ -3,9 +3,13 @@ import { FiFacebook, FiLinkedin, FiTwitter } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
+    const autoHide = () => {
+        return window.location.pathname.includes('register') ||
+        window.location.pathname.includes('login') ? "hidden" : "lg:flex" 
+    }
   return (
     <>
-        <footer className='w-full bg-green-600 p-5 px-5 lg:p-16 lg:px-28 flex justify-between items-center lg:items-start text-white bottom-0'>
+        <footer className={`w-full bg-green-600 p-5 px-5 lg:p-16 lg:px-28 flex justify-between items-center lg:items-start text-white bottom-0 ${autoHide()}`}>
             <h1 className='text-4xl font-bold'>Logo</h1>
 
             <div className='lg:flex flex-col items-center hidden'>
