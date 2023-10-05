@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FiMenu, FiUser } from 'react-icons/fi'
 import { Button } from '@material-tailwind/react'
 
+
 const Navbar = () => {
     const autoHide = () => {
         return window.location.pathname.includes('register') ||
@@ -12,7 +13,7 @@ const Navbar = () => {
     <>
         <nav className={`bg-white justify-between w-full py-5 px-28 items-center hidden ${autoHide()}`}>
             <div className='flex gap-20 items-center'>
-                <h1 className='text-4xl font-bold'>Logo</h1>
+                <h1 className='text-4xl font-bold text-green'>Travul<span>9ja</span></h1>
 
                 <div className="flex gap-5 text-black menu">
                     <Link to={'/'}>Flight</Link>  
