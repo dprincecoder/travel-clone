@@ -15,7 +15,7 @@ const Recommended = () => {
         <main className='w-full'>
             <Card className="mt-6 w-full ring-1 ring-gray-200">
                 <CardBody>
-                    <Chip value="Recommended" variant='filled' className='bg-teal-800 w-max mb-3' size='sm' />
+                    <Chip value="Recommended" variant='filled' className='bg-green-800 w-max mb-3' size='sm' />
                     <div className='flex gap-10 items-center mb-3'>
                         <p className="flex items-center uppercase gap-1 font-bold text-black">
                             <BiBus color='red' />
@@ -61,7 +61,7 @@ const Recommended = () => {
 
             <Card className="mt-6 w-full ring-1 ring-gray-200">
                 <CardBody>
-                    <Chip value="Recommended" variant='filled' className='bg-teal-800 w-max mb-3' size='sm' />
+                    <Chip value="Recommended" variant='filled' className='bg-green-800 w-max mb-3' size='sm' />
                     <div className='flex gap-10 items-center mb-3'>
                         <p className="flex items-center uppercase gap-1 font-bold text-black">
                             <BiBus color='red' />
@@ -107,7 +107,7 @@ const Recommended = () => {
 
             <Card className="mt-6 w-full ring-1 ring-gray-200">
                 <CardBody>
-                    <Chip value="Recommended" variant='filled' className='bg-teal-800 w-max mb-3' size='sm' />
+                    <Chip value="Recommended" variant='filled' className='bg-green-800 w-max mb-3' size='sm' />
                     <div className='flex gap-10 items-center mb-3'>
                         <p className="flex items-center uppercase gap-1 font-bold text-black">
                             <BiBus color='red' />
@@ -153,7 +153,7 @@ const Recommended = () => {
 
             <Card className="mt-6 w-full ring-1 ring-gray-200">
                 <CardBody>
-                    <Chip value="Recommended" variant='filled' className='bg-teal-800 w-max mb-3' size='sm' />
+                    <Chip value="Recommended" variant='filled' className='bg-green-800 w-max mb-3' size='sm' />
                     <div className='flex gap-10 items-center mb-3'>
                         <p className="flex items-center uppercase gap-1 font-bold text-black">
                             <BiBus color='red' />
@@ -199,7 +199,7 @@ const Recommended = () => {
 
             <Card className="mt-6 w-full ring-1 ring-gray-200">
                 <CardBody>
-                    <Chip value="Recommended" variant='filled' className='bg-teal-800 w-max mb-3' size='sm' />
+                    <Chip value="Recommended" variant='filled' className='bg-green-800 w-max mb-3' size='sm' />
                     <div className='flex gap-10 items-center mb-3'>
                         <p className="flex items-center uppercase gap-1 font-bold text-black">
                             <BiBus color='red' />
@@ -245,7 +245,7 @@ const Recommended = () => {
 
             <Card className="mt-6 w-full ring-1 ring-gray-200">
                 <CardBody>
-                    <Chip value="Recommended" variant='filled' className='bg-teal-800 w-max mb-3' size='sm' />
+                    <Chip value="Recommended" variant='filled' className='bg-green-800 w-max mb-3' size='sm' />
                     <div className='flex gap-10 items-center mb-3'>
                         <p className="flex items-center uppercase gap-1 font-bold text-black">
                             <BiBus color='red' />
@@ -291,7 +291,7 @@ const Recommended = () => {
 
             <Card className="mt-6 w-full ring-1 ring-gray-200">
                 <CardBody>
-                    <Chip value="Recommended" variant='filled' className='bg-teal-800 w-max mb-3' size='sm' />
+                    <Chip value="Recommended" variant='filled' className='bg-green-800 w-max mb-3' size='sm' />
                     <div className='flex gap-10 items-center mb-3'>
                         <p className="flex items-center uppercase gap-1 font-bold text-black">
                             <BiBus color='red' />
