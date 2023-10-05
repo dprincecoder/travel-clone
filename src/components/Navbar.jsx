@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FiMenu, FiUser } from 'react-icons/fi'
+import { Button } from '@material-tailwind/react'
 
 
 const Navbar = () => {
@@ -11,15 +12,17 @@ const Navbar = () => {
                 <h1 className='text-4xl font-bold text-green'>Travul<span>9ja</span></h1>
 
                 <div className="flex gap-5 text-black menu">
-                    <Link to={'/'}>Flight</Link>
+                    <Link to={'/'}>Flight</Link>  
                     <Link to={'/'}>Hotels</Link>
-                    <Link to={'/'}>Car Hire</Link>
+                    <Link to={'/checkout'}>Car Hire</Link>
                 </div>
             </div>
 
             <div className="nav-action-btn flex items-center gap-4">
-                <Link to={'/'} className='text-[#006B58]'>Login</Link>
-                <Link to={'/'} className='bg-[#006B58] text-white p-3 rounded-full'>Create account</Link>
+                <Link to={'/'} className='text-green-600'>Login</Link>
+                <Link to={'/search'}>
+                    <Button variant='gradient' color='green' size='lg' className='rounded-full capitalize'>Create account</Button>
+                </Link>
             </div>
         </nav>
 
