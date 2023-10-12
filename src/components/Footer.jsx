@@ -9,8 +9,8 @@ const Footer = () => {
     }
   return (
     <>
-        <footer className={`w-full bg-green-600 p-5 px-5 lg:p-16 lg:px-28 flex justify-between items-center lg:items-start text-white bottom-0 ${autoHide()}`}>
-            <h1 className='text-4xl font-bold'>Logo</h1>
+        <footer className={`w-full bg-green-600 p-5 px-5 mt-12 lg:p-16 lg:px-28 flex justify-between items-center lg:items-start text-white bottom-0 ${autoHide()}`}>
+            <h1 className='text-2xl font-bold'>Travul9ja</h1>
 
             <div className='lg:flex flex-col items-center hidden'>
                 <h1 className='text-lg font-bold'>Company</h1>

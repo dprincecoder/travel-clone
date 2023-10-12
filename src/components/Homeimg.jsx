@@ -1,5 +1,6 @@
 import React from 'react'
 import Car from '../assets/Car.png'
+import {Button} from "@material-tailwind/react"
 
 const Homeimg = () => {
   return (
@@ -24,7 +25,7 @@ const Homeimg = () => {
             <div className="flex justify-between m-2">
             <div></div>
             <div>
-            <button className='bg-[#006B58] w-32 h-10 rounded-full text-white'>Hire a Car</button>
+            <Button variant='gradient' style={{ fontFamily: 'rubik' }} color='green' size='lg' className='rounded-full capitalize'>Create account</Button>
             </div>
         </div>
 
@@ -42,7 +43,7 @@ const Homeimg = () => {
         </div>
 
         <div className="txt-contents p-10">
-        <h1 className="mt-7 mr-0 text-2xl font-bold  font-Rubik">Lets Find an Idea Car
+        <h1 className="mt-7 mr-0 text-2xl font-bold  style={{ fontFamily: 'rubik' }}">Lets Find an Idea Car
                 <br/>
                 or you
                 </h1>
@@ -57,7 +58,7 @@ const Homeimg = () => {
             <div className="flex justify-between m-3">
             
             <div>
-            <button className='bg-[#006B58] w-32 h-10 rounded-full text-white'>Hire a Car</button>
+            <Button variant='gradient' style={{ fontFamily: 'rubik' }} color='green' size='lg' className='rounded-full capitalize'>Create account</Button>
             </div>
         </div>
         </div>
