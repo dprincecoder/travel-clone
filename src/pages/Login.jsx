@@ -12,7 +12,9 @@ import { BiLogoApple, BiLogoFacebookCircle, BiLogoGoogle } from "react-icons/bi"
 import { Link } from "react-router-dom";
 
 export function Login() {
-    return (
+    
+
+      return (
         <main className="flex flex-col justify-center items-center h-screen">
             <Card className="w-96  ring-1 ring-green-500">
                 <CardHeader
@@ -33,6 +35,7 @@ export function Login() {
                     </CardBody>
                     <CardFooter className="pt-0">
                         <Button style={{ fontFamily: 'rubik' }} type="submit" className="text-sm" variant="gradient" color="green" fullWidth>
+                        
                             Sign In
                         </Button>
                         <Typography variant="small" className="mt-6 flex justify-center">
@@ -61,8 +64,14 @@ export function Login() {
                         <BiLogoApple size={23} />
                         Continue with Apple
                     </Button>
+
+                   {/* {login} */}
                 </div>
             </section>
         </main>
     );
-}
+    
+    
+    }
+
+    
